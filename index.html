@@ -1,0 +1,360 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="logo.png">
+<title>Nelligala Buddhist Temple</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+	<nav>
+    	<a href="#" class="logo"><img src="logo.png">Nelligala</a>
+    	<div class="navbar">
+        	<div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+        	<li class="active"><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="landing"></section>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+		window.addEventListener("scroll", function(){
+			var header=document.querySelector("nav");
+			header.classList.toggle("sticky",window.scrollY>0);
+		})
+	</script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+		$(document).on('click','.nav-links li',function(){
+			$(this).addClass('active').siblings().removeClass('active')
+		})
+	</script>
+    <section class="banner" id="banner">
+    	<img src="img/2.jpg" class="fitBg">
+        <div class="content">
+        	<h2>Nelligala International Buddhist Center</h2>
+            <br>
+            <p>
+</p>
+	<br>
+			<a href="#about" class="btn">Learn More
+            </a>
+        </div>
+    </section>
+    <section class="about" id="about">
+    	<div class="contentBx">
+        	<h2 class="titleText">Feel The Beauty Of The Nelligala</h2>
+            <br>
+            <p class="text">The Nelligala International Buddhist Center is a beautiful modern Buddhist temple that is situated at the top of the Nelligala Mountain, Muruthalawa village in Kandy District, Central Province in Sri Lanka. Nelligala temple is still under construction and its construction was started in 2015.
+				Reaching the top of Nelligala one can experience the most amazing views which could sometimes be covered by the ongoing mist. However, once the mist clears off the view can be the most beautiful mountain landscape that you've ever seen. On a clear day, viewers can see Adam’s Peak. If one looks at the direction of Sumana Saman Devi’s statue, you will be able to see Adam’s Peak.
+</p>
+	<br>
+    <br>
+			<a href="#destination" class="btn">Popular Sights</a>
+		</div>
+        <div class="imgBx">
+        	<img src="img/3.jpg" class="fitBg">
+        </div>
+    </section>
+    <section class="banner2">
+    	<img src="img/3.jpg" class="fitBg">
+    </section>
+    <section class="destination" id="destination">
+    	<div class="content">
+        	<h2 class="titleText">Most Popular Sights In Nelligala Temple</h2>
+            <br>
+            <p class="text">Nelligala International Buddhist Center is famous among local and foreign tourists for its beautiful landscapes and visited by both Buddhists and people from various other religions. It is a place which brings along peace and tranquility to its visitors. The gold color Buddha statues, golden stupa of the temple and Sumana Saman God’s statue creates a unique and picturesque sight to see in contrast with the blue sky above. The temple includes sacred relics of Lord Buddha and one can see their clear view in Relic chamber.</p>
+        </div>
+        <div class="destinationList">
+        	<div class="box">
+            	<div class="imgBx">
+                	<img src="img/10.jpg" class="fitBg">
+                </div>
+                <div class="content">
+                	<h2>Buddhist Stupa<br><span>Nelligala Temple</span></h2>
+                </div>
+            </div>
+            <div class="box">
+            	<div class="imgBx">
+                	<img src="img/18.jpg" class="fitBg">
+                </div>
+                <div class="content">
+                	<h2>Lord Buddha Statues<br><span>Nelligala Temple</span></h2>
+                </div>
+            </div>
+            <div class="box">
+            	<div class="imgBx">
+                	<img src="img/19.jpg" class="fitBg">
+                </div>
+                <div class="content">
+                	<h2>Bodhi Tree<br><span>Nelligala Temple</span></h2>
+                </div>
+            </div>
+            <div class="box">
+            	<div class="imgBx">
+                	<img src="img/25.jpg" class="fitBg">
+                </div>
+                <div class="content">
+                	<h2>Golden Stupa<br><span>Nelligala Temple</span></h2>
+                </div>
+            </div>
+            <div class="box">
+            	<div class="imgBx">
+                	<img src="img/17.jpg" class="fitBg">
+                </div>
+                <div class="content">
+                	<h2>Relic Chamber<br><span>Nelligala Temple</span></h2>
+                </div>
+            </div>
+            <div class="box">
+            	<div class="imgBx">
+                	<img src="img/13.jpg" class="fitBg">
+                </div>
+                <div class="content">
+                	<h2>Saman Devi Statue<br><span>Nelligala Temple</span></h2>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <a href="#containar" class="btn">View More</a>
+    </section>
+    <section class="banner3">
+    	<img src="img/4.jpg" class="fitBg">
+    </section>
+	<section id="map" class="map">
+		<div class="content">
+        	<h2 class="titleText">Visit Nelligala International Buddhist Center</h2>
+            <br>
+            <p class="text">The Nelligala International Buddhist Center is a short drive from the Kandy city (Distance from Kandy – 12.3 km (26 minutes)) and is a long drive from the Colombo city (Distance from Colombo – 119 km (3hr 16min)). </p>
+			<center>
+			<div class="box">
+            	<div class="imgBx">
+                	<img src="img/map.JPG" class="fitBg">
+                </div>
+                <div class="map-content">
+                	<h2>Nelligala International Buddhist Center<br><span>Google Map</span></h2>
+                </div>
+            </div>
+			</center>
+        </div>
+		<a href="https://www.google.com/maps/dir/Colombo/Nelligala+International+Buddhist+Center,+Nelligala+Rd/@7.2050216,79.9356157,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ae253d10f7a7003:0x320b2e4d32d3838d!2m2!1d79.861243!2d6.9270786!1m5!1m1!1s0x3ae3699bffde0ccb:0x19d737c0ca777920!2m2!1d80.5601417!2d7.3021556" class="btn">Visit Map</a>
+	</section>
+	<section id="containar" class="container">
+        	<div class="card">
+            	<div class="imgBx">
+                	<img src="img/20.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+            <div class="card">
+            	<div class="imgBx">
+                	<img src="img/8.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+            <div class="card">
+            	<div class="imgBx">
+                	<img src="img/9.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+			<div class="card">
+            	<div class="imgBx">
+                	<img src="img/11.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+			<div class="card">
+            	<div class="imgBx">
+                	<img src="img/14.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+			<div class="card">
+            	<div class="imgBx">
+                	<img src="img/28.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+			<div class="card">
+            	<div class="imgBx">
+                	<img src="img/22.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+			<div class="card">
+            	<div class="imgBx">
+                	<img src="img/26.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+			<div class="card">
+            	<div class="imgBx">
+                	<img src="img/6.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+			<div class="card">
+            	<div class="imgBx">
+                	<img src="img/12.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+			<div class="card">
+            	<div class="imgBx">
+                	<img src="img/30.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+			<div class="card">
+            	<div class="imgBx">
+                	<img src="img/29.jpg" width="300px" height="400px">
+                </div>
+             	<div class="content">
+                	<div class="contentBx">
+                    	<h3>
+                        	Tourism Spots
+                            	<br>
+                                <span>
+                                	Nelligala Temple
+                                </span>
+                        </h3>
+                    </div>
+             	</div>   
+            </div>
+	</section>
+	<section class="banner4">
+    	<img src="img/1.jpg" class="fitBg">
+    </section>
+    <section class="footer" id="footer">
+    	<ul class="sci">
+        	<li style="--i:1;"><a href="https://www.facebook.com/NelligalaInternationalBuddhistCentre/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li style="--i:2;"><a href="https://twitter.com/search?q=%23Nelligala"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li style="--i:3;"><a href="https://www.youtube.com/results?search_query=nelligala+temple"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        </ul>
+        <h4 class="copyrightText">Copyright ©2021 <a href="https://www.linkedin.com/in/e-a-d-d-lakmali-07156334a/">E.A.D.D.Lakmali</a>. All rights reserved.</h4>
+    </section>
+	
+</body>
+</html>
